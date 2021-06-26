@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    background-color: white;
+    margin: 0 0 0 0;
+}
+
+.entire-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: white;
+}
+
+.content {
+    font-kerning:none;
+    width: 65vw;
+    height: 95vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.logostyle {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+    line-height: 1;
+    user-select: none;
+    margin-bottom: 10vh;
+    
+
+}
+
+.logostyle2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100px;
+    line-height: 1;
+    letter-spacing: 5px;
+    user-select: none;
+}
+
+.blurb {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+    margin-right: 5vw;
+    
+}
+
+.bg-image {
+    background-image: url(office-night-scape-resize2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    width: 35vw;
+    height: 100vh;
+    border-style: none;
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 600px) {
+    .bg-image {
+        display:none;
+    }
+    .content {
+        width: 95vw;
+    }
+}
+
+.main-wrapper, .main-wrapper-first {
+    width: 100% !important;
+    margin-top: 0 !important; 
+}
